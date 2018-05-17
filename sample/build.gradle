@@ -23,8 +23,6 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support:support-v13:27.1.1'
-    implementation 'com.android.support:design:27.1.1'
     implementation 'tk.jamun:ui:0.0.1'
     implementation 'tk.jamun:scanner:0.0.1'
 //    implementation 'tk.jamun:calendar:0.0.1'
