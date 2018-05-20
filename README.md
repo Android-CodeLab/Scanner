@@ -45,8 +45,7 @@ dependencies {
      compile 'tk.jamun:scanner:0.0.1'
 }
 ```
-
-## Maven Config
+### Maven Config
 
 ```xml
 <dependency>
