@@ -1,4 +1,6 @@
 # Jamun-Scanner
+<a href='https://bintray.com/lib-jamun/Jamun/Scanner/0.0.1/link'><img src='https://api.bintray.com/packages/lib-jamun/Jamun/Scanner/images/download.svg?version=0.0.1'></a>
+
 Scanner is a collection of Beautiful Activity which help others to make there own Custom QR/Barcode Scanner.
 
 ### Introduction
