@@ -20,7 +20,7 @@ Scanner is a collection of Beautiful Activity which help others to make there ow
 * You don't need to add Multiple libraries and UI components, it have such Components inside that make Quality.
 * Library is Customizable for **Only Barcode** or **Only QR** or Any QR/Barcode Related Types.
 
-### Quality Measures? for (0.0.1)
+### Quality Measures? for (0.0.2)
 
 The following apps are using this library without facing any kind of Bugs.
 
@@ -41,16 +41,16 @@ Window View | Working Preview
 
 ```java
 dependencies {
-     compile 'tk.jamun:scanner:0.0.1'
+     compile 'tk.jamun.ui:scanner:0.0.2'
 }
 ```
 ### Maven Config
 
 ```xml
 <dependency>
-  <groupId>tk.jamun</groupId>
+  <groupId>tk.jamun.ui</groupId>
   <artifactId>scanner</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <type>aar</type>
 </dependency>
 ```
