@@ -204,7 +204,7 @@ public class ActivityPickers extends AppCompatActivity {
                     .setPicker("Choose Intent Picker", arrayList, new PickerIntent.OnClickListener() {
                         @Override
                         public void onClick(ModelIntentPicker modelIntentPicker) {
-                            
+
                         }
                     });
         }
