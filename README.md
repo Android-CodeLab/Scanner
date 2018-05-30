@@ -20,7 +20,7 @@ Scanner is a collection of Beautiful Activity which help others to make there ow
 * You don't need to add Multiple libraries and UI components, it have such Components inside that make Quality.
 * Library is Customizable for **Only Barcode** or **Only QR** or Any QR/Barcode Related Types.
 
-### Quality Measures? for (0.0.2)
+### Quality Measures? for (0.0.1)
 
 The following apps are using this library without facing any kind of Bugs.
 
@@ -41,7 +41,7 @@ Window View | Working Preview
 
 ```java
 dependencies {
-     compile 'tk.jamun.ui:scanner:0.0.2'
+     compile 'tk.jamun.ui:scanner:0.0.1'
 }
 ```
 ### Maven Config
@@ -50,7 +50,7 @@ dependencies {
 <dependency>
   <groupId>tk.jamun.ui</groupId>
   <artifactId>scanner</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.1</version>
   <type>aar</type>
 </dependency>
 ```
@@ -65,7 +65,7 @@ Once the project has been added to gradle, You can use these lines of code to co
 Simple Object declaration :
 
 ```
-Intent intent = new Intent(ActivityScannerSample.this, ActivityQrReader.class);
+Intent intent = new Intent(ActivityScannerSample.this, ActivityScanner.class);
 
 ```
 #### Step 2. Start Module By Calling
@@ -147,7 +147,6 @@ intent.putExtra(INTENT_SCANNER_TYPE, TYPE_ALL_FORMAT);
 # Dependency
 
 * Goole Vision ``v15.0.2``
-* Zxing ``3.3.0``
 * SDK Version ``15 to 27``
 
 ## Credits
