@@ -51,7 +51,7 @@ public class ActivityCameraGallery extends AppCompatActivity {
                         ModelChild modelChild = data.getParcelableExtra(GALLERY_INTENT_FOR_MODEL);
                         if (modelChild != null)
                             try {
-                                file = new File(modelChild.getFilePath());
+                            file = new File(modelChild.getFilePath());
                                 startActivityForResult(new Intent(ActivityCameraGallery.this, ActivityCamera.class)
                                                 .putExtra(InterfaceUtils.INTENT_COME_FROM, LIBRARY_COME_FROM_GALLERY)
                                                 .putExtra(RESULT_IMAGE_PATH, file.getAbsolutePath()),
@@ -61,13 +61,13 @@ public class ActivityCameraGallery extends AppCompatActivity {
                     } else {
                         ArrayList<ModelChild> childArrayList = data.getParcelableArrayListExtra(GALLERY_INTENT_FOR_MODEL);
                         for (ModelChild modelChild : childArrayList) {
-                            file = new File(modelChild.getFilePath());
+                             file = new File(modelChild.getFilePath());
                         }
                     }
                     break;
                 case ACTION_REQUEST_CAMERA:
                     if (data != null) {
-                        file = new File(data.getStringExtra(RESULT_IMAGE_PATH));
+                         file = new File(data.getStringExtra(RESULT_IMAGE_PATH));
                     }
                     break;
             }
@@ -80,7 +80,7 @@ public class ActivityCameraGallery extends AppCompatActivity {
     }
 
     public void onClickCameraWithImage(View view) {
-        if (file != null) {
+        if (file!=null){
             startActivityForResult(new Intent(ActivityCameraGallery.this, ActivityCamera.class)
                             .putExtra(InterfaceUtils.INTENT_COME_FROM, ActivityCamera.LIBRARY_COME_FROM_GALLERY)
                             .putExtra(RESULT_IMAGE_PATH, file.getAbsolutePath()),

@@ -1,7 +1,7 @@
 <resources>
 
-    <style name="AppTheme" parent="AppTheme.Base">
-        <item name="android:statusBarColor">@color/colorPrimary</item>
+    <style name="AppTheme" parent="AppTheme.Base" >
+    <item name="android:statusBarColor">@color/colorPrimary</item>
         <item name="android:colorControlHighlight">@color/colorPrimaryDark</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:windowContentTransitions">true</item>
