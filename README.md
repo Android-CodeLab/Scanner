@@ -2,7 +2,7 @@
 
 Scanner is a collection of Beautiful Activity which help others to make there own Custom QR/Barcode Scanner.
 
-### What's New? (0.0.1)
+### What's New? {Latest Version}
 * Stable **Official Version** for Developers and Live Apps.
 * Tags to Customize Library for Any kind like **Only Barcode** or **Only QR** or **All-in-One**
 * Easy Calling Mechanism with **Instant reply** via onActivityResult.
@@ -16,7 +16,7 @@ Scanner is a collection of Beautiful Activity which help others to make there ow
 * You don't need to add Multiple libraries and UI components, it have such Components inside that make Quality.
 * Library is Customizable for **Only Barcode** or **Only QR** or Any QR/Barcode Related Types.
 
-### Quality Measures? for (0.0.1)
+### Quality Measures? for {Latest Version}
 
 The following apps are using this library without facing any kind of Bugs.
 
@@ -36,17 +36,35 @@ Window View | Working Preview
 **Add the dependency**
 
 ```java
+Latest Version : 0.0.8
+
+Android
 dependencies {
-     compile 'tk.jamun.ui:scanner:0.0.1'
+     compile 'tk.jamun.ui:scanner:{Latest Version}'
+}
+
+AndroidX
+dependencies {
+     compile 'tk.jamunx.ui:scanner:{Latest Version}'
+}
+
+Kotlin
+dependencies {
+     compile 'tk.jamun-ktx.ui:scanner:{Latest Version}'
 }
 ```
 ### Maven Config
 
 ```xml
 <dependency>
+Android
   <groupId>tk.jamun.ui</groupId>
+AndroidX
+  <groupId>tk.jamunx.ui</groupId>
+Kotlin
+  <groupId>tk.jamun-ktx.ui</groupId>
   <artifactId>scanner</artifactId>
-  <version>0.0.1</version>
+  <version>{Latest Version}</version>
   <type>aar</type>
 </dependency>
 ```
@@ -148,7 +166,7 @@ intent.putExtra(INTENT_SCANNER_TYPE, TYPE_ALL_FORMAT);
 ## Credits
 
 Desgin & Developed by : **[Jatin Sahgal](https://www.linkedin.com/in/jatinsahgal/)**
- (**[Linkedin](https://www.linkedin.com/in/jatinsahgal/)** & **[Website](https://blog.jamun.tk)**) 
+ (**[Linkedin](https://www.linkedin.com/in/jatinsahgal/)** & **[Website](http://androidcodelab.com/)** & **[Github](https://github.com/Lib-Jamun)**) 
 
 ## More Library under Jamun 
 
